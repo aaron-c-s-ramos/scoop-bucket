@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "description": "Windows Explorer context-menu manager and sequential batch runner for Microsoft Sysinternals SDelete",
+    "homepage": "https://github.com/aaron-c-s-ramos/SDelete-Gui",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aaron-c-s-ramos/SDelete-Gui/releases/download/v2.0.0/sdelete-gui.exe",
+            "hash": "f4e62b2a6ef6a560e0e1eec3a6eb7c93aca29963f1cabcd566eccbd39efa82f8"
+        }
+    },
+    "bin": "sdelete-gui.exe",
+    "shortcuts": [
+        [
+            "sdelete-gui.exe",
+            "SDelete Gui"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aaron-c-s-ramos/SDelete-Gui/releases/download/v$version/sdelete-gui.exe"
+            }
+        }
+    }
+}
