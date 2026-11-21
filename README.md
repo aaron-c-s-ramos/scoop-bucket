@@ -4,17 +4,19 @@ Personal [Scoop](https://scoop.sh) bucket for Windows applications maintained by
 
 ## Usage
 
-Add the bucket and install `sdelete-gui`:
+Add the bucket and install any package:
 
 ```powershell
 scoop bucket add aaron https://github.com/aaron-c-s-ramos/scoop-bucket
 scoop install aaron/sdelete-gui
+scoop install aaron/ezthumb
 ```
 
 ## Available Manifests
 
 | Manifest | Application | Repository |
 |---|---|---|
+| `ezthumb` | EzThumb (Rust) | [aaron-c-s-ramos/ezthumb](https://github.com/aaron-c-s-ramos/ezthumb) |
 | `sdelete-gui` | SDelete Gui (Rust) | [aaron-c-s-ramos/SDelete-Gui](https://github.com/aaron-c-s-ramos/SDelete-Gui) |
 
 ## Automatic Updates

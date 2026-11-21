@@ -1,0 +1,30 @@
+{
+    "version": "4.0.0",
+    "description": "Video thumbnail contact-sheet generator with CLI and desktop GUI powered by FFmpeg",
+    "homepage": "https://github.com/aaron-c-s-ramos/ezthumb",
+    "license": "GPL-3.0-only",
+    "suggest": {
+        "FFmpeg": "ffmpeg"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aaron-c-s-ramos/ezthumb/releases/download/v4.0.0/ezthumb.exe",
+            "hash": "89563897d91a43b6fdb7fdc8d74635141115ce6af8bcb4fe0e8053eb153970e6"
+        }
+    },
+    "bin": "ezthumb.exe",
+    "shortcuts": [
+        [
+            "ezthumb.exe",
+            "EzThumb"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aaron-c-s-ramos/ezthumb/releases/download/v$version/ezthumb.exe"
+            }
+        }
+    }
+}
