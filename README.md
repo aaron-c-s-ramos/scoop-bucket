@@ -10,12 +10,14 @@ Add the bucket and install any package:
 scoop bucket add aaron https://github.com/aaron-c-s-ramos/scoop-bucket
 scoop install aaron/sdelete-gui
 scoop install aaron/ezthumb
+scoop install aaron/account-management
 ```
 
 ## Available Manifests
 
 | Manifest | Application | Repository |
 |---|---|---|
+| `account-management` | Local User and Group Management (`lusrmgr`, Rust) | [aaron-c-s-ramos/AccountManagement](https://github.com/aaron-c-s-ramos/AccountManagement) |
 | `ezthumb` | EzThumb (Rust) | [aaron-c-s-ramos/ezthumb](https://github.com/aaron-c-s-ramos/ezthumb) |
 | `sdelete-gui` | SDelete Gui (Rust) | [aaron-c-s-ramos/SDelete-Gui](https://github.com/aaron-c-s-ramos/SDelete-Gui) |
 

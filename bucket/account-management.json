@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "description": "Standalone Windows Local User and Group Management (lusrmgr) desktop GUI and CLI written in Rust",
+    "homepage": "https://github.com/aaron-c-s-ramos/AccountManagement",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/aaron-c-s-ramos/AccountManagement/releases/download/v2.0.0/lusrmgr.exe",
+            "hash": "bafdec7e35c6e4699a0b7ba22e78045e3a4e07adab1254e7b8e96c298b3b0a63"
+        }
+    },
+    "bin": "lusrmgr.exe",
+    "shortcuts": [
+        [
+            "lusrmgr.exe",
+            "Local User and Group Management"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/aaron-c-s-ramos/AccountManagement/releases/download/v$version/lusrmgr.exe"
+            }
+        }
+    }
+}
